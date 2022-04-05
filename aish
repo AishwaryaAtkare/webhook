@@ -1,2 +1,6 @@
-Hey Krishna
-fxgfd
+
+job('Hello world') {
+steps { 
+shell('echo"Hello world!"')
+}
+}
