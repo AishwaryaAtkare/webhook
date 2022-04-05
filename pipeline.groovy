@@ -21,5 +21,10 @@ pipeline {
                 echo "final product"
             }
         }
+        stage('release') { 
+            steps {
+                echo "final release"
+            }
+        }
     }
 }
