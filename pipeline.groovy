@@ -16,5 +16,10 @@ pipeline {
                 echo "Aish"
             }
         }
+        stage('proc') { 
+            steps {
+                echo "final product"
+            }
+        }
     }
 }
